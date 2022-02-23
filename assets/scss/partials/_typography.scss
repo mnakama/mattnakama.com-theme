@@ -111,7 +111,7 @@ pre {
   padding: 16px;
   word-wrap: normal;
   overflow: auto;
-  background-color: #f6f8fa;
+  background-color: #f0f3f3; // match manni code theme; was #f6f8fa
   border-radius: 3px;
 }
 
@@ -146,4 +146,8 @@ pre code {
 
 abbr[title] {
   text-decoration: underline double;
+}
+
+.title {
+  text-align: center;
 }
